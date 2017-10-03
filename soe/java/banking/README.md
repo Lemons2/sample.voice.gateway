@@ -83,7 +83,6 @@ Execute full Maven build to create the target/DemoSOE.war file:
 $ mvn clean install
 
 Download and install Liberty, then use it to run the built application from step 1:
-$ mvn liberty:run-server
 Once the server is running, the application will be available under http://localhost:9080/DemoSOE. (Or whatever path your server is attached to)
 
 4. Update server.env
